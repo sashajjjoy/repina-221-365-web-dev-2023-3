@@ -1,0 +1,58 @@
+             body {
+                font-family: 'Roboto', sans-serif;
+             }
+            .footer {
+                background-color: #ccc;
+                padding: 10px;
+                text-align: center;
+            }
+            table {
+              border-collapse: collapse;
+              width: 100%;
+            }
+            th, td {
+              padding: 8px;
+              text-align: left;
+              border-bottom: 1px solid #ddd;
+            }
+            tr:nth-child(even) {
+              background-color: #fccc;
+            }
+
+            th {
+              background-color: #fccc;
+              color: white;
+            }
+            .pony_img
+            {
+            margin-left: 18%;
+            }
+            .header {
+              background-color: #fccc;
+              padding: 1.25rem 0;
+              border-bottom: 5px solid #ccc;
+              font-size: 1.2rem;
+              position: sticky;
+              top:0;
+              text-align: center;
+              
+          }
+          .container{
+              max-width: 95%;
+          }
+          .header a {
+              text-decoration: none;
+              text-transform: uppercase;
+              color: black;
+              font-weight: bold;
+          }
+          
+          .main-menu ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .main-menu li {
+            display: inline;
+            margin-right: 5px;
+        }
